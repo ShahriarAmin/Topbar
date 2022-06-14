@@ -1,0 +1,37 @@
+/* Common Css Start */
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   outline:0;
+ }
+ ul{
+    list-style-type: none;
+ }
+ a{
+    text-decoration: none;
+ }
+/* //Common Css End */
+
+/*Topbar sec start*/
+#topBar{
+    background: orange
+}
+#topBar .topbar_mid{
+    background: black;
+    color: aliceblue;
+    transform: skew(-30deg);
+}
+#topBar .topbar_mid p{
+    transform: skew(30deg);
+    text-align: center;
+}
+/*Topbar sec end*/
+
+/*Nav sec start*/
+#nav{
+    background: white;
+   color: black;
+   
+}
+/*Nav sec end*/
